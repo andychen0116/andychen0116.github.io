@@ -49,6 +49,12 @@ hr { border-top: 4px solid #CCC; }
 	margin-right: auto;
 }
 
+.tm-hr-short2 {
+	border-top: 1px solid #006699;
+	width: 238px;
+	margin-left: 0;
+}
+
 /* Layout */
 
 .tm-main { width: 100%; }
