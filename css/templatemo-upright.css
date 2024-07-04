@@ -528,6 +528,12 @@ figure.effect-honey:hover ul li a {
 	margin-top: 0;
 }
 
+.tm-col-about-r2 {
+	width: 300px;
+	margin-right: 0;
+	margin-left: auto;
+	margin-top: 0;
+}
 
 @media (max-width: 1660px) {
 	.tm-col-about { width: 50%; }
