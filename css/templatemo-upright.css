@@ -229,6 +229,63 @@ hr { border-top: 4px solid #CCC; }
 	color: #068ccf;
 }
 
+/* Andy */
+.recruiting
+{
+	color:	red;
+	font-size: 1.5em;
+}
+
+.interest
+{
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Home2 section */
+#home2 { min-height: 100vh; }
+.tm-col-home-2 { width: calc(100% - 300px); }
+
+.tm-img-home2-container {
+	width: 250px;
+	height: 500px;
+	background: url(../img/img-home-01.jpg) no-repeat center;
+	background-size: cover;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+@media (max-width: 1600px) {
+	.tm-col-home-2 { width: calc(100% - 250px); }
+
+	.tm-img-home2-container {
+		width: 200px;
+		height: 400px;
+	}
+}
+
+.tm-icon-container {
+	border: 1px solid #CCC;
+    width: 122px;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tm-text-container { max-width: 97%; }
+
+.tm-post-icon {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+.tm-post-link:hover {
+	color: #068ccf;
+}
+
 /* Gallery section */
 .tm-gallery {
 	position: relative;
@@ -454,11 +511,16 @@ figure.effect-honey:hover ul li a {
 
 .tm-col-about-l { width: calc(100% - 500px); }
 
+.tm-col-about-l2 { 
+	width: calc(100% - 300px); 
+}
+
 .tm-col-about-r {
 	width: 400px;
 	margin-right: 0;
 	margin-left: auto;
 }
+
 
 @media (max-width: 1660px) {
 	.tm-col-about { width: 50%; }
@@ -593,7 +655,12 @@ figure.effect-honey:hover ul li a {
 
 /* Contact */
 
-.tm-contact-col-l { padding-right: 25px; }
+.tm-contact-col-l { padding-right: 25px;}
+
+.tm-contact-col-l2 { 
+	padding-right: 25px;
+	padding-top: 100px;
+}
 
 .form-control {
 	padding: 15px 20px 10px;
